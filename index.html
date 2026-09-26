@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome - Mon Portfolio</title>
+  <!-- Police moderne -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome pour les icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
     <div class="container">
-      <!-- Remplace par ta photo de profil -->
       <img src="assets/images/photo-profil.jpg" alt="Photo de profil" class="profile-pic">
       <h1>Prénom NOM</h1>
       <p class="subtitle">Étudiant(e) en ingénierie | [Ta spécialité/filière]</p>
@@ -19,36 +22,41 @@
 
   <nav>
     <div class="container">
-      <a href="index.html">Welcome</a>
-      <a href="projects.html">Projects</a>
-      <a href="career.html">Career</a>
-      <a href="mobility.html">Mobility</a>
-      <a href="passions.html">Passions</a>
-      <a href="civic-engagement.html">Civic Engagement</a>
+      <a href="index.html"><i class="fas fa-home"></i> Welcome</a>
+      <a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="career.html"><i class="fas fa-briefcase"></i> Career</a>
+      <a href="mobility.html"><i class="fas fa-plane"></i> Mobility</a>
+      <a href="passions.html"><i class="fas fa-heart"></i> Passions</a>
+      <a href="civic-engagement.html"><i class="fas fa-hand-holding-heart"></i> Civic Engagement</a>
     </div>
   </nav>
 
   <main class="container">
     <section id="welcome">
-      <h2>Bienvenue sur mon portfolio</h2>
-      <p>
-        Bonjour ! Je suis [Prénom NOM], étudiant(e) en [ta filière] à l'ENSEEIHT.
-        Ce portfolio présente mes projets, mon parcours et mes passions.
-      </p>
-      <div class="links">
-        <!-- Remplace par le chemin de ton CV -->
-        <a href="assets/files/CV_Prénom_NOM.pdf" class="button" download>📄 Mon CV</a>
-        <!-- Remplace par ton lien LinkedIn -->
-        <a href="https://linkedin.com/in/ton-profil" class="button" target="_blank">🔗 LinkedIn</a>
-        <!-- Remplace par le lien de ta vidéo de pitch -->
-        <a href="https://youtube.com/watch?v=TA_CLE_VIDEO" class="button" target="_blank">🎥 Ma vidéo de pitch</a>
+      <div class="card">
+        <h2><i class="fas fa-user-graduate"></i> Bienvenue</h2>
+        <p>
+          Bonjour ! Je suis [Prénom NOM], étudiant(e) en [ta filière] à l'ENSEEIHT.
+          Ce portfolio présente mes projets, mon parcours et mes passions.
+        </p>
+        <div class="links">
+          <a href="assets/files/CV_Prénom_NOM.pdf" class="button" download>
+            <i class="fas fa-download"></i> Mon CV
+          </a>
+          <a href="https://linkedin.com/in/ton-profil" class="button" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://youtube.com/watch?v=TA_CLE_VIDEO" class="button" target="_blank">
+            <i class="fas fa-play-circle"></i> Ma vidéo de pitch
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>© 2026 Prénom NOM | Dernière mise à jour : Septembre 2026</p>
+      <p><i class="fas fa-copyright"></i> 2026 Prénom NOM | Dernière mise à jour : Septembre 2026</p>
     </div>
   </footer>
 </body>
