@@ -5,58 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome - Mon Portfolio</title>
   <!-- Police moderne -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <!-- Font Awesome pour les icônes -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!-- En-tête -->
   <header>
     <div class="container">
-      <img src="assets/images/photo-profil.jpg" alt="Photo de profil" class="profile-pic">
-      <h1>Prénom NOM</h1>
-      <p class="subtitle">Étudiant(e) en ingénierie | [Ta spécialité/filière]</p>
-      <p class="uvp">Je crée des solutions innovantes pour [secteur d'intérêt].</p>
+      <div class="header-content">
+        <h1 class="header-title">Prénom NOM</h1>
+        <nav class="header-nav">
+          <a href="index.html" class="active">Welcome</a>
+          <a href="projects.html">Projects</a>
+          <a href="career.html">Career</a>
+          <a href="mobility.html">Mobility</a>
+          <a href="passions.html">Passions</a>
+          <a href="civic-engagement.html">Civic Engagement</a>
+          <a href="#" class="lang-btn">FR</a>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <nav>
-    <div class="container">
-      <a href="index.html"><i class="fas fa-home"></i> Welcome</a>
-      <a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
-      <a href="career.html"><i class="fas fa-briefcase"></i> Career</a>
-      <a href="mobility.html"><i class="fas fa-plane"></i> Mobility</a>
-      <a href="passions.html"><i class="fas fa-heart"></i> Passions</a>
-      <a href="civic-engagement.html"><i class="fas fa-hand-holding-heart"></i> Civic Engagement</a>
-    </div>
-  </nav>
-
+  <!-- Section Welcome -->
   <main class="container">
-    <section id="welcome">
-      <div class="card">
-        <h2><i class="fas fa-user-graduate"></i> Bienvenue</h2>
-        <p>
-          Bonjour ! Je suis [Prénom NOM], étudiant(e) en [ta filière] à l'ENSEEIHT.
-          Ce portfolio présente mes projets, mon parcours et mes passions.
-        </p>
-        <div class="links">
-          <a href="assets/files/CV_Prénom_NOM.pdf" class="button" download>
-            <i class="fas fa-download"></i> Mon CV
+    <section class="welcome-section">
+      <h2 class="section-title">Bienvenue</h2>
+      <p class="section-subtitle">Une brève introduction sur toi et ton parcours.</p>
+
+      <div class="welcome-content">
+        <div class="welcome-card">
+          <img src="assets/images/photo-profil.jpg" alt="Photo de profil" class="profile-pic">
+          <h3>Prénom NOM</h3>
+          <p class="profile-title">Étudiant(e) en ingénierie | [Ta spécialité]</p>
+          <p class="profile-description">
+            Je suis passionné(e) par [secteur d'intérêt] et je crée des solutions innovantes pour [domaine].
+          </p>
+        </div>
+
+        <div class="welcome-actions">
+          <a href="assets/files/CV_Prénom_NOM.pdf" class="btn-cv" download>
+            <i class="fas fa-download"></i> Télécharger mon CV (FR)
           </a>
-          <a href="https://linkedin.com/in/ton-profil" class="button" target="_blank">
-            <i class="fab fa-linkedin"></i> LinkedIn
+          <a href="assets/files/CV_Prénom_NOM_EN.pdf" class="btn-cv" download>
+            <i class="fas fa-download"></i> Download my CV (EN)
           </a>
-          <a href="https://youtube.com/watch?v=TA_CLE_VIDEO" class="button" target="_blank">
-            <i class="fas fa-play-circle"></i> Ma vidéo de pitch
+          <a href="https://linkedin.com/in/ton-profil" class="btn-linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i> Mon profil LinkedIn
           </a>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Pied de page -->
   <footer>
     <div class="container">
-      <p><i class="fas fa-copyright"></i> 2026 Prénom NOM | Dernière mise à jour : Septembre 2026</p>
+      <p>© 2026 Prénom NOM | Dernière mise à jour : Septembre 2026</p>
     </div>
   </footer>
 </body>
