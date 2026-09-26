@@ -1,2 +1,3 @@
 # loic-harmant.github.io
-Portfolio of Loïc Harmant
+Welcome to my portfolio 
+I'm Loïc Harmant, an engineering student at ENSEEIHT
