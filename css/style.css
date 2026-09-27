@@ -131,15 +131,18 @@ h2 {
   color: var(--primary);
 }
 
-/* ========== WELCOME SECTION ========== */
+/* ========== WELCOME SECTION (FIXED) ========== */
 .section-welcome {
-  padding: 80px 0
+  padding: 80px 0;  /* ← POINT-VIRGULE AJOUTÉ */
   text-align: center;
+  min-height: auto !important;  /* Force à ne pas prendre 100vh */
+  height: auto !important;      /* Force à s'adapter au contenu */
 }
 
 .welcome-content {
   max-width: 600px;
   margin: 40px auto;
+  display: block !important;    /* Force à ne pas être flex */
 }
 
 .profile-photo {
@@ -149,6 +152,9 @@ h2 {
   object-fit: cover;
   margin-bottom: 24px;
   border: 4px solid var(--bg-light);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .welcome-content h1 {
@@ -170,7 +176,6 @@ h2 {
   color: var(--primary);
   text-decoration: none;
 }
-
 /* ========== PROJECTS GRID ========== */
 .project-grid {
   display: grid;
