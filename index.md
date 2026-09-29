@@ -30,6 +30,7 @@
     <div class="container">
       <div class="welcome-content">
         <img src="images/photo-profil.jpg" alt="Photo de profil" class="profile-photo">
+        <h1>Prénom NOM</h1>
         <p class="uvp">Engineering apprentice in embedded systems @ ENSEEIHT</p>
         <div class="welcome-links">
           <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV</a>
