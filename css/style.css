@@ -424,3 +424,19 @@ h2 {
     flex-direction: column;
   }
 }
+
+/* FORCE ALIGNMENT - override everything */
+.nav-menu > li:first-child a {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1 !important;
+  vertical-align: middle !important;
+}
+
+.nav-menu > li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  vertical-align: middle !important;
+}
