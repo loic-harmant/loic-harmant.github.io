@@ -13,7 +13,6 @@
   <!-- NAVIGATION FIXÉE EN HAUT -->
   <nav class="navbar">
     <div class="container">
-      <a href="#welcome" class="logo">Prénom NOM</a>
       <ul class="nav-menu">
         <li><a href="#welcome" class="active">Welcome</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -30,11 +29,11 @@
     <div class="container">
       <div class="welcome-content">
         <img src="images/photo-profil.jpg" alt="Photo de profil" class="profile-photo">
-        <h1>Prénom NOM</h1>
-        <p class="uvp">Engineering apprentice in embedded systems @ ENSEEIHT</p>
+        <h1>Loïc HARMANTM</h1>
+        <p class="uvp">Engineering apprentice in fluide mechanics, erngetics and environment at ENSEEIHT</p>
         <div class="welcome-links">
           <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV</a>
-          <a href="https://linkedin.com/in/votreprofil" class="btn btn-secondary">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/loïc-harmant" class="btn btn-secondary">LinkedIn</a>
           <a href="./CV_French_Loïc_Harmant.pdf" class="btn btn-secondary" download>Download CV (French)</a>
         </div>
         <div class="video-container">
