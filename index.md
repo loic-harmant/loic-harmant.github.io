@@ -15,7 +15,7 @@
     <div class="container">
       <a href="#welcome" class="logo">Prénom NOM</a>
       <ul class="nav-menu">
-        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#welcome" class="active">Welcome</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#career">Career</a></li>
         <li><a href="#mobility">Mobility</a></li>
