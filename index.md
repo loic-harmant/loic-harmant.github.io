@@ -97,17 +97,6 @@
         <a href="documents/job-ad.pdf" target="_blank" class="doc-link">📄 View Job Advertisement (PDF)</a>
       </div>
       
-      <div class="documents-section">
-        <a href="documents/CV_Lea_MARTIN_EN.pdf" class="doc-item" target="_blank">
-          <span class="doc-icon">📄</span>
-          <span class="doc-name">Curriculum Vitae (EN)</span>
-        </a>
-        <a href="documents/Cover_Letter_Lea_MARTIN_EN.pdf" class="doc-item" target="_blank">
-          <span class="doc-icon">📝</span>
-          <span class="doc-name">Cover Letter (EN)</span>
-        </a>
-      </div>
-      
       <div class="my-job-glasses">
         <h3>My Job Glasses Interviews</h3>
         <article class="mjg-interview">
