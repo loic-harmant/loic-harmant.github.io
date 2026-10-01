@@ -28,7 +28,7 @@
   <section id="welcome" class="section section-welcome">
     <div class="container">
       <div class="welcome-content">
-        <img src="image/photo-cv.jpg" alt="Photo de profil" class="photo-cv">
+        <img src="images/photo-cv.jpg" alt="Photo de profil" class="photo-cv">
         <h1>Loïc HARMANT</h1>
         <p class="uvp">Engineering apprentice in fluide mechanics, erngetics and environment at ENSEEIHT</p>
         <div class="welcome-links">
