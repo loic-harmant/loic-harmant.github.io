@@ -30,7 +30,7 @@
       <div class="welcome-content">
         <img src="images/photo-cv.jpg" alt="Photo de profil" class="photo-cv">
         <h1>Loïc HARMANT</h1>
-        <p class="uvp">Engineering apprentice in fluide mechanics, erngetics and environment at ENSEEIHT</p>
+        <p class="uvp">Engineering apprentice in fluide mechanics, energetics and environment at ENSEEIHT</p>
         <div class="welcome-links">
           <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV (English)</a>
           <a href="./CV_French_Loïc_Harmant.pdf" class="btn btn-secondary" download>Download CV (French)</a>
