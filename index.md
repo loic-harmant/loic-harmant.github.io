@@ -32,9 +32,9 @@
         <h1>Loïc HARMANT</h1>
         <p class="uvp">Engineering apprentice in fluide mechanics, erngetics and environment at ENSEEIHT</p>
         <div class="welcome-links">
-          <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV</a>
-          <a href="https://www.linkedin.com/in/loïc-harmant" class="btn btn-secondary">LinkedIn</a>
+          <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV (English)</a>
           <a href="./CV_French_Loïc_Harmant.pdf" class="btn btn-secondary" download>Download CV (French)</a>
+          <a href="https://www.linkedin.com/in/loïc-harmant" class="btn btn-secondary">LinkedIn</a>
         </div>
         <div class="video-container">
           <!-- Remplace le lien YouTube par ta vidéo "Unlisted" -->
