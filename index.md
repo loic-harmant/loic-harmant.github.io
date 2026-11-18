@@ -81,8 +81,8 @@
       </div>
       
       <div class="target-specialty">
-        <h3>Target Specialty / Pathway</h3>
-        <p>Je vise la spécialité [Nom] chez [Entreprise] car...</p>
+        <h3>Target Specialty</h3>
+        <p>I am planning to choose the Water and environmental sciences speciality for my third year at ENSEEIHT because it matches perfectly the topics I'm interested in.</p>
       </div>
     </div>
   </section>
