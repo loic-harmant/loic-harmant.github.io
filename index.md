@@ -100,12 +100,12 @@
       <div class="my-job-glasses">
         <h3>My Job Glasses Interviews</h3>
         <article class="mjg-interview">
-          <h4>Mamadou Ndom - Chargé d'études à l'agence de l'Eau Loire-Bretagne</h4>
-          <p>Après mes études, je souhaiterais continuer à travailler sur la thématique de l'eau mais je sais pas encore dans quelle domaine en particulier. Echanger avec Mamadou m'a permis de comprendre le rôle des Agences de l'eau dans la gestion de cette ressource et les différente aspects de son métier et notamment l'importance du dialogue avec acteurs de l'eau</p>
+          <h4>Mamadou Ndom - Water Resources Engineer at Loire-Bretagne Water Agency</h4>
+          <p>After my studies, I would like to continue working on water-related topics, but I’m not yet sure which specific field I want to focus on. Discussing with Mamadou helped me understand the role of the Water Agencies in managing this resource and the various aspects of their work—particularly the importance of dialogue with water stakeholders.</p>
         </article>
         <article class="mjg-interview">
-          <h4>Jean-Yves Dabernat - Délégué Territorial EDF Hydro Vallées Lot & Truyère</h4>
-          <p>A venir ...</p>
+          <h4>Jean-Yves Dabernat - Territorial Delegate for EDF Hydro - Lot & Truyère valleys</h4>
+          <p>Comming soon ...</p>
         </article>
       </div>
       
