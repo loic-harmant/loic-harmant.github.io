@@ -175,8 +175,8 @@
       
       <div class="engagement-list">
         <article class="engagement-item">
-          <h3>Engagement 1 (ex: WomeN7)</h3>
-          <p>Que fais-tu ? Pourquoi ? Impact attendu ?</p>
+          <h3>IngéPLUS</h3>
+          <p>L'objectif d'IngéPLUS est d'accompagner des étudiants de BTS intéressés par une poursuite d'études en formation d'ingénieur. Le rôle des parrains est de partager leurs expérience de formation, de recherche d'alternance et leur connaissance du monde de l'entreprise.</p>
         </article>
         <article class="engagement-item">
           <h3>Engagement 2 (ex: Volontariat)</h3>
