@@ -178,10 +178,6 @@
           <h3>IngéPLUS</h3>
           <p>L'objectif d'IngéPLUS est d'accompagner des étudiants de BTS intéressés par une poursuite d'études en formation d'ingénieur. Le rôle des parrains est de partager leurs expérience de formation, de recherche d'alternance et leur connaissance du monde de l'entreprise.</p>
         </article>
-        <article class="engagement-item">
-          <h3>Engagement 2 (ex: Volontariat)</h3>
-          <p>Description de l'action et de sa motivation.</p>
-        </article>
       </div>
     </div>
   </section>
@@ -191,9 +187,9 @@
     <div class="container">
       <p>&copy; 2026 Prénom NOM — Built with GitHub Pages</p>
       <div class="social-links">
-        <a href="mailto:votre@email.com">Email</a>
+        <a href="loic.harmant@etu.toulouse-inp.fr">Email</a>
         <a href="https://linkedin.com/in/votreprofil">LinkedIn</a>
-        <a href="https://github.com/votre-username">GitHub</a>
+        <a href="https://github.com/loic-harmant">GitHub</a>
       </div>
     </div>
   </footer>
