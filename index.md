@@ -14,7 +14,7 @@
   <nav class="navbar">
     <div class="container">
       <ul class="nav-menu">
-        <li><a href="#welcome" class="active">Welcome</a></li>
+        <li><a href="#welcome">Welcome</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#career">Career</a></li>
         <li><a href="#mobility">Mobility</a></li>
@@ -185,7 +185,7 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2026 Prénom NOM — Built with GitHub Pages</p>
+      <p>&copy; 2026 Loïc HARMANT — Built with GitHub Pages</p>
       <div class="social-links">
         <a href="loic.harmant@etu.toulouse-inp.fr">Email</a>
         <a href="https://linkedin.com/in/votreprofil">LinkedIn</a>
