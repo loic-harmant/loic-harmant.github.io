@@ -109,9 +109,7 @@
         </article>
       </div>
       
-      <p class="linkedin-link">
-        👉 <a href="https://linkedin.com/in/votreprofil" target="_blank">My LinkedIn Profile</a>
-      </p>
+
     </div>
   </section>
 
