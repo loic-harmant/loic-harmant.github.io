@@ -30,7 +30,7 @@
       <div class="welcome-content">
         <img src="images/photo-cv.jpg" alt="Photo de profil" class="photo-cv">
         <h1>Loïc HARMANT</h1>
-        <p class="uvp">Engineering apprentice in fluide mechanics, energetics and environment at ENSEEIHT</p>
+        <p class="uvp">Apprenti ingénieur en mécanique des fluides, énergétique et environnement à l'ENSEEIHT</p>
         <div class="welcome-links">
           <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV (English)</a>
           <a href="./CV_French_Loïc_Harmant.pdf" class="btn btn-secondary" download>Download CV (French)</a>
@@ -175,8 +175,12 @@
       
       <div class="engagement-list">
         <article class="engagement-item">
-          <h3>IngéPLUS</h3>
+          <h3>Parrain au sein du dispositif IngéPLUS</h3>
           <p>L'objectif d'IngéPLUS est d'accompagner des étudiants de BTS intéressés par une poursuite d'études en formation d'ingénieur. Le rôle des parrains est de partager leurs expérience de formation, de recherche d'alternance et leur connaissance du monde de l'entreprise.</p>
+        </article>
+        <article class="engagement-item">
+          <h3>Bénévole Capitole du Libre</h3>
+          <p>J'ai participé à cet évènement qui a eu lieu dans l'ENSEEIHT en tant que membre de l'association Photo7.</p> 
         </article>
       </div>
     </div>
