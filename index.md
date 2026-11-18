@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prénom NOM — Engineer Portfolio</title>
+  <title>Loïc HARMANT — Engineer Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -32,8 +32,8 @@
         <h1>Loïc HARMANT</h1>
         <p class="uvp">Apprenti ingénieur en mécanique des fluides, énergétique et environnement à l'ENSEEIHT</p>
         <div class="welcome-links">
-          <a href="documents/CV_Lea_MARTIN_EN.pdf" class="btn btn-primary" target="_blank">Download CV (English)</a>
-          <a href="./CV_French_Loïc_Harmant.pdf" class="btn btn-secondary" download>Download CV (French)</a>
+          <a href="documents/CV_Loïc_HARMANT_EN.pdf" class="btn btn-primary" target="_blank">Download CV (English)</a>
+          <a href="./CV_Loïc_HARMANT_FR.pdf" class="btn btn-secondary" download>Download CV (French)</a>
           <a href="https://www.linkedin.com/in/loïc-harmant" class="btn btn-secondary">LinkedIn</a>
         </div>
         <div class="video-container">
@@ -175,12 +175,12 @@
       
       <div class="engagement-list">
         <article class="engagement-item">
-          <h3>Parrain au sein du dispositif IngéPLUS</h3>
-          <p>L'objectif d'IngéPLUS est d'accompagner des étudiants de BTS intéressés par une poursuite d'études en formation d'ingénieur. Le rôle des parrains est de partager leurs expérience de formation, de recherche d'alternance et leur connaissance du monde de l'entreprise.</p>
+          <h3>Mentor for the IngéPLUS program</h3>
+          <p>The goal of **IngéPLUS** is to support **students with technical diplomas** interested in pursuing engineering studies. The role of the mentors (*parrains*) is to share their experiences regarding training, finding apprenticeships, and their knowledge of the professional world.</p>
         </article>
         <article class="engagement-item">
-          <h3>Bénévole Capitole du Libre</h3>
-          <p>J'ai participé à cet évènement qui a eu lieu dans l'ENSEEIHT en tant que membre de l'association Photo7.</p> 
+          <h3>Volunteer at Capitole du Libre</h3>
+          <p>I participated at an event called Capitole du Libre that took place at ENSEEIHT as a member of the Photo7 association.</p> 
         </article>
       </div>
     </div>
