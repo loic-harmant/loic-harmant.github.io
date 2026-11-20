@@ -390,6 +390,22 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   margin-top: 0.5rem;
   color: var(--gray-600);
 }
+.engagement-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.engagement-header h3 {
+  text-align: left; 
+}
+
+.engagement-logo {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
 
 /* ---------- 10. Footer ---------- */
 .footer {
