@@ -340,6 +340,11 @@ h4 { font-size: 1.05rem; font-weight: 600; }
    
 }
 
+.mobility-item .engagement-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 /* ---------- 8. Section Passions ---------- */
 .section-passions {
   background: var(--gray-50);
