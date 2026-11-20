@@ -336,6 +336,8 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   margin-top: 0.5rem;
   font-size: 0.95rem;
   color: var(--gray-600);
+  text-align: justify;
+   
 }
 
 /* ---------- 8. Section Passions ---------- */
