@@ -345,6 +345,12 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   height: 3rem;
 }
 
+img[src$="logo-innsbruck-v2.svg"],
+img[src$="logo-icos.svg"] {
+  width: 4rem;
+  height: 4rem;
+}
+
 /* ---------- 8. Section Passions ---------- */
 .section-passions {
   background: var(--gray-50);
