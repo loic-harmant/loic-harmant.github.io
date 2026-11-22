@@ -161,12 +161,20 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.625rem 1.25rem;
   border-radius: 0.5rem;
   font-size: 0.9rem;
   font-weight: 600;
   transition: all 0.2s ease;
+}
+
+.btn-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
 }
 
 .btn-primary {
@@ -338,7 +346,6 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   font-size: 0.95rem;
   color: var(--gray-600);
   text-align: justify;
-   
 }
 
 .mobility-item .engagement-logo {
@@ -352,7 +359,66 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   height: 4.5rem;
 }
 
-/* ---------- 8. Section Passions ---------- */
+/* ---------- 8. Section Skills ---------- */
+.skills-grid {
+  max-width: 46rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem 3rem;
+}
+
+.skills-grid h3 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.skill-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  padding: 0.15rem 0;
+}
+
+.skill-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  flex-shrink: 0;
+}
+
+.skill-icon.mpl {
+  padding: 2px;
+}
+
+/* accolade englobant chaque groupe de sous-compétences */
+.skill-bracket {
+  position: relative;
+  padding-left: 1rem;
+  margin-left: 0.25rem;
+}
+
+.skill-bracket::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.55rem;
+  border: 2px solid var(--gray-200);
+  border-right: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+/* ---------- 9. Section Passions ---------- */
 .section-passions {
   background: var(--gray-50);
 }
@@ -388,7 +454,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   color: var(--gray-600);
 }
 
-/* ---------- 9. Section Civic ---------- */
+/* ---------- 10. Section Civic ---------- */
 .engagement-list {
   max-width: 52rem;
   margin: 0 auto;
@@ -411,7 +477,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .engagement-header h3 {
-  text-align: left; 
+  text-align: left;
 }
 
 .engagement-logo {
@@ -426,7 +492,7 @@ img[src$="logo-ingeplus.png"] {
   height: 2.75rem;
 }
 
-/* ---------- 10. Footer ---------- */
+/* ---------- 11. Footer ---------- */
 .footer {
   border-top: 1px solid var(--gray-200);
   padding: 2rem 0;
@@ -462,7 +528,7 @@ img[src$="logo-ingeplus.png"] {
   color: var(--primary);
 }
 
-/* ---------- 11. Responsive ---------- */
+/* ---------- 12. Responsive ---------- */
 @media (max-width: 767px) {
   .nav-menu {
     flex-wrap: wrap;
@@ -488,9 +554,14 @@ img[src$="logo-ingeplus.png"] {
     flex-direction: column;
     text-align: center;
   }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
-/* ---------- 12. Accessibilité ---------- */
+/* ---------- 13. Accessibilité ---------- */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
