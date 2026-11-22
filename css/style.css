@@ -361,6 +361,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 /* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
 .skills-heading {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -406,8 +407,9 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 /* centre le contenu de la colonne Tools and Systems dans sa moitié de grille */
 .skills-col--tools {
-  width: fit-content;
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* accolade englobant chaque groupe de sous-compétences */
