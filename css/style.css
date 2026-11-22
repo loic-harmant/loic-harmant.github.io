@@ -415,15 +415,24 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   padding: 2px;
 }
 
-/* le bloc d'outils entier est centré sous le titre */
-.skills-col--tools {
+/* la paire Tools + Systems côte à côte, centrée dans la moitié droite */
+.skills-pair {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+/* chaque colonne : titre centré, bloc centré en dessous */
+.skills-col--tools,
+.skills-col--systems {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* à l'intérieur du bloc : logos et textes alignés à gauche, uns sous les autres */
-.skills-col--tools .tools-list {
+/* à l'intérieur de chaque bloc : logos et textes alignés à gauche, uns sous les autres */
+.skills-col--tools .tools-list,
+.skills-col--systems .tools-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -431,7 +440,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 /* décale le bloc Languages entier (Python + accolade + SQL + accolade)
    sous le titre, sans toucher à son organisation interne */
-.skills-col:not(.skills-col--tools) {
+.skills-col--languages {
   width: fit-content;
   margin-inline: auto;
 }
@@ -595,6 +604,12 @@ img[src$="logo-ingeplus.png"] {
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .skills-pair {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
   }
 }
 
