@@ -359,10 +359,14 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   height: 4.5rem;
 }
 
-/* ---------- 8. Section Skills ---------- */
+/* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
+.skills-heading {
+  margin-bottom: 1rem;
+}
+
 .skills-grid {
   max-width: 46rem;
-  margin: 0 auto;
+  margin: 0 auto 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem 3rem;
@@ -390,6 +394,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .skill-icon {
+  display: block;   /* un SVG inline se cale sur la ligne de base du texte : décalage vertical sinon */
   width: 1.4rem;
   height: 1.4rem;
   flex-shrink: 0;
@@ -397,6 +402,12 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 .skill-icon.mpl {
   padding: 2px;
+}
+
+/* centre le contenu de la colonne Tools and Systems dans sa moitié de grille */
+.skills-col--tools {
+  width: fit-content;
+  margin-inline: auto;
 }
 
 /* accolade englobant chaque groupe de sous-compétences */
