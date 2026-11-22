@@ -336,6 +336,12 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   color: var(--gray-600);
 }
 
+/* logos Agence de l'eau et EDF agrandis */
+.mjg-interview .engagement-logo {
+  width: 4rem;
+  height: 4rem;
+}
+
 /* ---------- 7. Section Mobility ---------- */
 .mobility-list {
   display: grid;
@@ -363,10 +369,16 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   height: 4.5rem;
 }
 
+/* logo The Ocean Cleanup plus petit que les autres */
+.mobility-item img[src$="logo-theoceancleanup-v2.jpg"] {
+  width: 3rem;
+  height: 3rem;
+}
+
 .mobility-item img[src$="logo-innsbruck-v3.png"],
 .mobility-item img[src$="logo-icos.svg"] {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 /* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
@@ -534,8 +546,8 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 img[src$="logo-ingeplus.png"] {
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 /* ---------- 11. Footer ---------- */
