@@ -292,12 +292,11 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .doc-link {
-  display: block;          
-  width: fit-content;      
-  margin-top: 0.75rem;
+  display: block;
+  width: fit-content;
+  margin: 0.75rem auto 0;   /* auto à gauche et à droite = centré */
   font-weight: 600;
   color: var(--primary);
-  text-align: center;
 }
 
 .doc-link:hover {
