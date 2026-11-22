@@ -419,6 +419,13 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   align-items: flex-start;
 }
 
+/* décale le bloc Languages entier (Python + accolade + SQL + accolade)
+   sous le titre, sans toucher à son organisation interne */
+.skills-col:not(.skills-col--tools) {
+  width: fit-content;
+  margin-inline: auto;
+}
+
 /* accolade englobant chaque groupe de sous-compétences */
 .skill-bracket {
   position: relative;
