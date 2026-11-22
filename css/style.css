@@ -365,8 +365,8 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 .mobility-item img[src$="logo-innsbruck-v3.png"],
 .mobility-item img[src$="logo-icos.svg"] {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 /* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
