@@ -288,6 +288,16 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   color: var(--gray-600);
 }
 
+.page-project h2,
+.page-project h3 {
+  text-align: left;
+}
+
+.page-project .section-subtitle {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
 /* ---------- 6. Section Career ---------- */
 .section-career {
   background: var(--gray-50);
