@@ -292,7 +292,8 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .doc-link {
-  display: inline-block;
+  display: block;          
+  width: fit-content;      
   margin-top: 0.75rem;
   font-weight: 600;
   color: var(--primary);
