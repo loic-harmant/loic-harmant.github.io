@@ -343,6 +343,15 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 /* ---------- 7. Section Mobility ---------- */
+p a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
 .mobility-list {
   display: grid;
   grid-template-columns: 1fr;
