@@ -215,6 +215,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .project-card {
+  position: relative;
   border: 1px solid var(--gray-200);
   border-radius: 0.75rem;
   overflow: hidden;
@@ -296,6 +297,19 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 .page-project .section-subtitle {
   text-align: left;
   margin-bottom: 1.5rem;
+}
+
+.project-badge {
+  position: absolute;
+  right: 1.25rem;      /* aligné sur le padding de .project-info */
+  bottom: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--white);
+  border: 1px solid var(--primary);
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
 }
 
 /* ---------- 6. Section Career ---------- */
