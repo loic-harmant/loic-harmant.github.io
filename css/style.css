@@ -322,7 +322,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .mjg-interview {
-  text-align: left;
+  text-align: justify;
   background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: 0.75rem;
