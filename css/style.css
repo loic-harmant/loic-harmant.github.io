@@ -305,9 +305,9 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   bottom: 1.25rem;
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--primary);
+  color: #ea580c;
   background: var(--white);
-  border: 1px solid var(--primary);
+  border: 1px solid #ea580c;
   padding: 0.125rem 0.625rem;
   border-radius: 9999px;
 }
