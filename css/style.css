@@ -390,6 +390,10 @@ p a:hover {
   height: 5rem;
 }
 
+.section-mobility .section-subtitle {
+  text-align: justify;
+}
+
 /* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
 .skills-heading {
   font-size: 1.5rem;
