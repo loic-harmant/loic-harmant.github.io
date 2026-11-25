@@ -392,6 +392,8 @@ p a:hover {
 
 .section-mobility .section-subtitle {
   text-align: justify;
+  max-width: 46rem;
+  margin-inline: auto;
 }
 
 /* ---------- 8. Section Skills (imbriquée dans Projects) ---------- */
