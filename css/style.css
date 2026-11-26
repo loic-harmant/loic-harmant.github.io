@@ -313,6 +313,14 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 /* ---------- 6. Section Career ---------- */
+.mjg-interview h4 a {
+  color: var(--primary);
+}
+
+.mjg-interview h4 a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
 .section-career {
   background: var(--gray-50);
 }
