@@ -207,6 +207,14 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 /* ---------- 5. Section Projects ---------- */
+/* Logotype de l'université en tête de page projet */
+.page-project-logo {
+  display: block;
+  width: 12rem;
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
