@@ -233,6 +233,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   width: 12rem;
   max-width: 60%;
   height: auto;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 .project-grid {
