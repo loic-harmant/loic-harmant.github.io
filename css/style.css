@@ -207,6 +207,26 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 /* ---------- 5. Section Projects ---------- */
+/* Graphiques de la page projet : taille maîtrisée et centrés */
+.project-figure {
+  margin: 0 auto 2rem;          /* centré, espace sous la figure */
+  max-width: 40rem;             /* largeur confortable sans déborder */
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;                  /* garde les proportions */
+  border-radius: 0.5rem;         /* même arrondi discret que tes cartes */
+  border: 1px solid var(--gray-200);  /* encadre le graphe, optionnel */
+}
+
+.project-figure figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-top: 0.5rem;
+}
 /* Logotype de l'université en tête de page projet */
 .page-project-logo {
   display: block;
