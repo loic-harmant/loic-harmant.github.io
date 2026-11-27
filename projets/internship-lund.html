@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Internship at Lund University — Loïc HARMANT</title>
+  <title>Greenhouse Gas Flux Processing — Lund University | Loïc HARMANT</title>
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -26,30 +26,33 @@
   <section class="section section-projects page-project">
     <div class="container">
       <a href="../index.html#projects" class="project-link">← Back to projects</a>
-      <h2>Research Internship — Lund University, Sweden</h2>
-      <p class="section-subtitle">Technician intern, April – June 2025 · Department of Physical Geography and Ecosystem Science</p>
+      <h2>Greenhouse Gas Flux Processing — Lund University, Sweden</h2>
+      <p class="section-subtitle">Research technician internship · April–June 2025 · Department of Physical Geography and Ecosystem Science</p>
 
-      <h3>Context</h3>
-      <p>The internship took place at Lund University within the Department of Physical Geography and Ecosystem Science.
-        The research question was: how does the management of forests and agricultural land influence the climate?</p>
+      <h3>Project context</h3>
+      <p>As part of a research internship at Lund University, I contributed to field measurements and data analysis investigating how agricultural and forest management relates to climate. This case study focuses on the Python tool I developed to process carbon dioxide (CO₂) and methane (CH₄) flux measurements collected at the Alnarp research site.</p>
 
-      <h3>My role and field work</h3>
-      <p>I took part in the installation of environmental sensors and carried out measurement campaigns
-        on both forest and agricultural sites.</p>
-      <p>À compléter : matériel utilisé (type de capteurs, gazomètres, stations...), sites exacts, protocole de pose.</p>
+      <h3>My contribution</h3>
+      <p>I wrote a Python program to turn measurements stored in Excel workbooks into calculated gas fluxes, daily summaries and visualisations. The work connected field data with a repeatable analysis workflow, making it easier to compare measurements across dates and crop types.</p>
 
-      <h3>Data processing</h3>
-      <p>I developed a Python program for the automated processing of CO2 and CH4 flux data,
-        then analysed and interpreted five months of measurements.</p>
-      <p>À compléter : bibliothèques utilisées (NumPy, Matplotlib...), chaîne de traitement, volume de données.</p>
+      <h3>Processing workflow</h3>
+      <ol>
+        <li><strong>Read and select measurements:</strong> the script reads measurement worksheets from an Excel workbook and processes each labelled measurement series. It uses observations recorded between 60 and 120 seconds, then calculates the flux when the series reaches 121 seconds.</li>
+        <li><strong>Estimate fluxes:</strong> NumPy fits a straight line to the CO₂ and CH₄ concentration time series. The slope is combined with the chamber volume and area, alongside the gas-law constants defined for the experiment, to calculate the flux.</li>
+        <li><strong>Summarise by date and crop:</strong> calculated values are written to a results workbook and averaged by day for the two crop categories: perennial wheat and annual wheat.</li>
+        <li><strong>Visualise the results:</strong> Matplotlib produces time-series plots of mean CO₂ and CH₄ fluxes, making the evolution of each gas and the comparison between crop types easier to inspect.</li>
+      </ol>
+
+      <h3>Deliverables</h3>
+      <p>The workflow generates an Excel table of calculated fluxes and two figures showing mean CO₂ and CH₄ fluxes over time. Example graphs and workbook screenshots are available in the project README. The source workbooks contain the measurements and are not included in the public repository.</p>
 
       <h3>What I learned</h3>
-      <p>À compléter : compétences techniques, travail en équipe international, lien avec ton orientation hydraulique/environnement.</p>
+      <p>This project strengthened my ability to build a scientific data-processing workflow in Python, work with Excel data using OpenPyXL, apply linear regression with NumPy and communicate results with clear plots. It also gave me practical experience connecting environmental field measurements to quantitative analysis in an international research setting.</p>
 
       <div class="project-tags">
-        <span>Python</span><span>Field measurements</span><span>Greenhouse gases</span>
+        <span>Python</span><span>OpenPyXL</span><span>NumPy</span><span>Matplotlib</span><span>CO₂ &amp; CH₄</span><span>Environmental data</span>
       </div>
-      <p><a href="https://github.com/loic-harmant/flux-process" class="project-link" target="_blank" rel="noopener noreferrer">View the project on GitHub →</a></p>
+      <p><a href="https://github.com/loic-harmant/flux-process" class="project-link" target="_blank" rel="noopener noreferrer">View the source code, README and results on GitHub →</a></p>
     </div>
   </section>
 
