@@ -257,10 +257,29 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   transform: translateY(-3px);
 }
 
+/* Conteneur de l'image de carte avec logo superposé */
+.project-media {
+  position: relative;          /* c'est lui qui ancre le logo */
+}
+
+/* Image : cadrage un peu plus aéré et recentré */
 .project-image {
   width: 100%;
-  height: 11rem;
+  height: 13rem;               /* était 11rem : gagne en hauteur */
   object-fit: cover;
+  object-position: center 30%; /* remonte le cadrage vers le haut de la photo (les bâtiments) */
+}
+
+/* Logo officiel Repères de crues en bas à droite de la photo */
+.card-overlay-logo {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .project-info {
@@ -340,6 +359,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   padding: 0.125rem 0.625rem;
   border-radius: 9999px;
 }
+
 
 /* ---------- 6. Section Career ---------- */
 .mjg-interview h4 a {
