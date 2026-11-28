@@ -305,16 +305,6 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   margin-bottom: 1rem;
 }
 
-/* Marge du contenu des pages projet : 3rem au lieu de 1.5rem */
-.page-project .container {
-  padding-inline: 3rem;
-}
-
-/* Respiration entre les paragraphes et sections des pages projet */
-.page-project p {
-  text-align: justify;
-  margin-bottom: 2.4rem;   /* environ le double de l'interligne actuel */
-}
 
 .page-project h3 {
   margin-top: 2rem;
@@ -322,7 +312,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 /* Marge du contenu des pages projet : côtés plus larges */
 .page-project .container {
-  padding-inline: 5rem;      /* était 3rem */
+  padding-inline: 7rem;      /* était 3rem */
 }
 
 /* Respiration entre les paragraphes : resserrée */
