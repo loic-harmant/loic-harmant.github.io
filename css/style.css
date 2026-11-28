@@ -197,13 +197,19 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   color: var(--primary);
 }
 
-.video-link {
-  font-weight: 600;
-  color: var(--primary);
+
+/* Lecteur vidéo de la section Welcome */
+.video-container {
+  max-width: 32rem;     /* pas plus large que la rangée de boutons */
+  margin: 0 auto;        /* centré, aligné avec les boutons */
 }
 
-.video-link:hover {
-  color: var(--primary-dark);
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* format vidéo standard, hauteur automatique */
+  border: none;
+  border-radius: 0.5rem; /* même arrondi que tes cartes et boutons */
+  box-shadow: 0 10px 25px rgba(17, 24, 39, 0.08);
 }
 
 /* ---------- 5. Section Projects ---------- */
