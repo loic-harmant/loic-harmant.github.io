@@ -317,7 +317,18 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .page-project h3 {
-  margin-top: 2.5rem;       /* espace avant chaque section (Context, My role, etc.) */
+  margin-top: 2rem;
+}
+
+/* Marge du contenu des pages projet : côtés plus larges */
+.page-project .container {
+  padding-inline: 5rem;      /* était 3rem */
+}
+
+/* Respiration entre les paragraphes : resserrée */
+.page-project p {
+  text-align: justify;
+  margin-bottom: 1.2rem;     /* était 2.4rem */
 }
 
 .project-tags span {
@@ -353,10 +364,6 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   color: var(--gray-600);
 }
 
-.page-project h2,
-.page-project h3 {
-  text-align: left;
-}
 
 .page-project .section-subtitle {
   text-align: left;
