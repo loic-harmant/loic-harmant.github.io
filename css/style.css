@@ -283,7 +283,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .project-info {
-  padding: 1.25rem;
+  padding: 2.5rem;
 }
 
 .project-info h3 {
@@ -294,7 +294,8 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 .project-description {
   font-size: 0.9rem;
   color: var(--gray-600);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;        /* était 1rem */
+  text-align: justify;
 }
 
 .project-tags {
