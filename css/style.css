@@ -283,7 +283,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 
 .project-info {
-  padding: 5rem;
+  padding: 2.5rem;
 }
 
 .project-info h3 {
@@ -310,9 +310,11 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   margin-top: 2rem;
 }
 
-/* Marge du contenu des pages projet : côtés plus larges */
+/* Pages projet : contenu resserré au centre, larges marges des deux côtés */
 .page-project .container {
-  padding-inline: 7rem;      /* était 3rem */
+  max-width: 50rem;      /* même largeur que tes blocs Mobility et Skills */
+  margin-inline: auto;   /* centre le bloc quel que soit l'écran */
+  padding-inline: 2rem;
 }
 
 /* Respiration entre les paragraphes : resserrée */
